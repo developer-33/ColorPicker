@@ -23,7 +23,7 @@ const [selectedColor, setSelectedColor] = useState(" ");
       
       <div id="colors-list">{
         <div>
-          <Color color="" setSelectedColor = {setSelectedColor}/>
+          <Color color="blue" setSelectedColor = {setSelectedColor}/>
           <Color color="yellow" setSelectedColor = {setSelectedColor}/>
           <Color color="red" setSelectedColor = {setSelectedColor}/>
         </div>
